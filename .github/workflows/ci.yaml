@@ -66,13 +66,14 @@ jobs:
     runs-on: aws-runner
 
     steps:
-      # - name: Pull latest image
-      #   run: |
-      #     echo "Hello deploy"
+      - name: Pull latest image
+        run: |
+          echo "Hello deploy"
 
       - name: Pull latest image
         run: |
-          docker pull %DOCKER_REGISTRY%/%IMAGE_NAME%:%IMAGE_TAG%
+          docker pull juju1216/ci-html:1.0.1
+
 
       - name: Stop existing container
         run: |
