@@ -66,9 +66,9 @@ jobs:
     runs-on: aws-runner
 
     steps:
-      - name: Pull latest image
-        run: |
-          echo "Hello deploy"
+      # - name: Pull latest image
+      #   run: |
+      #     echo "Hello deploy"
 
       - name: Pull latest image
         run: |
