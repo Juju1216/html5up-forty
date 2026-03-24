@@ -14,6 +14,8 @@ jobs:
 
   # ===============================
   # JOB 1 - CI : BUILD + PUSH + SCAN
+
+# cc
   # ===============================
   ci:
     runs-on: ubuntu-latest
